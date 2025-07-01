@@ -8,7 +8,7 @@ const Headers = ()=>{
                     <li><a href="#experience" className="hover:text-custom-primary transition">Experience</a></li>
                     <li><a href="#projects" className="hover:text-custom-primary transition">Projects</a></li>
                     <li>
-                        <a href="/src/assets/HOJADEVIDA2025.pdf" target="black" rel="noopener noreferrer" className="hover:text-custom-primary transition">Resume</a>
+                        <a href="/HOJADEVIDA2025.pdf" target="black" rel="noopener noreferrer" className="hover:text-custom-primary transition">Resume</a>
                     </li>
                 </ul>
             </nav>
