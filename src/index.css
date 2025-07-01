@@ -28,3 +28,7 @@ body{
 .text-heading{
   color: var(--color-heading);
 }
+
+.border-custom-primary{
+  color: var(--color-primary)
+}
