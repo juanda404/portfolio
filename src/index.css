@@ -22,6 +22,14 @@ body{
 .bg-custom-background{
   background-color: var(--color-background);
 }
+
+.bg-custom-primary{
+  background-color: var(--color-primary);
+}
+.text-background{
+  color: var(--color-background);
+}
+
 .text-custom-primary{
   color: var(--color-primary);
 }
