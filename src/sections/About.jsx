@@ -1,7 +1,7 @@
 const About = () =>{
     return(
-        <section id="about" className="py-24 px-6 max-w-3xl mx-auto">
-            <h2 className="text-white text-3xl font-bold mb-8 border-b border-slate-700 pb-2">About Me</h2>
+        <section id="about" className="py-36 px-6 md:px-12 lg:px-20 max-w-4xl mx-auto text-justify">
+            <h2 className="text-heading text-3xl font-bold mb-8 border-b border-slate-700 pb-2">About Me</h2>
             <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
                 <p>I'm Juan David, a <span className="text-white font-medium">Frontend Developer</span> passionate about creating modern web experiences....</p>
                 <p>Currently, I'm a Junior Front-End Engineer at AOS, working on a project basic. I contribute to the updating the Fogafin website, which is managed by the Sitefinity CMS.</p>
