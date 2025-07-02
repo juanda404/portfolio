@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 const Projects = () =>{
 
     const projects = [
@@ -20,7 +22,13 @@ const Projects = () =>{
 
 
     return(
-        <section id="projects" className="py-16 px-6 md:px-12 lg:px-20 max-w-5xl mx-auto">
+        <motion.section 
+            id="projects" 
+            className="py-26 pb-5 px-6 md:px-12 lg:px-20 max-w-5xl mx-auto"
+            initial={{ opacity: 0,y:50}}
+            whileInView={{opacity: 1, y:0}}
+            transition={{duration: 0.6, ease: 'easeOut'}}
+        >
                 <h2 className="text-heading text-3xl font-bold mb-12 border-b border-slate-700 pb-2">Projects</h2>
                 <div className="grid gap-12 md:grid-cols-2">
                     {projects.map((project, index) =>(
@@ -51,7 +59,7 @@ const Projects = () =>{
                         </article>
                     ))}
                 </div>
-        </section>
+        </motion.section>
     )
 }
 export default Projects
