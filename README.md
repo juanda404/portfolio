@@ -1,12 +1,37 @@
-# React + Vite
+# 💼 Juan David Santamaría - Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio built with **React.js** and **Tailwind CSS**.  
+Here you’ll find a showcase of my experience, projects, and a downloadable resume.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React.js](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Netlify](https://www.netlify.com/) for deployment
 
-## Expanding the ESLint configuration
+## 📚 Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **About** – Who I am and what I do
+- **Experience** – My professional background
+- **Projects** – Selected work and side projects
+- **Resume** – Download my CV in PDF format
+- **Contact** – Find my social links in the footer
+
+## 🌐 Live Demo
+
+👉 [jdsantamria.netlify.app](https://jdsantamaria.netlify.app)  
+(Replace with your actual Netlify domain)
+
+## 📁 Folder Structure
+
+├── public/
+├── src/
+│ ├── components/
+│ ├── data/
+│ ├── assets/
+│ ├── App.jsx
+│ └── main.jsx
+├── tailwind.config.js
+└── index.html
