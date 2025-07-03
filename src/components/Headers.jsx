@@ -23,7 +23,10 @@ const Navbar = () => {
   return (
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-custom-background bg-opacity-95 shadow-md backdrop-blur" : "bg-transparent"}`}>
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center" role="navigation">
-        <h1 className="text-heading text-xl font-bold">Juan David Santamaría</h1>
+        <div>
+          <h1 className="text-heading text-4xl font-bold">Juan David Santamaría</h1>
+          <h2 className="text-heading text-2xl pl-4 mt-4  ">Front End Engineer</h2>
+        </div>
 
         {/* Desktop menu */}
         <ul className="hidden md:flex space-x-6 text-custom-secondary font-medium text-sm">
