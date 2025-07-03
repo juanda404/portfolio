@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion'
+import portfolioImage from '../assets/portfolio.png'
+import todoImage from '../assets/Lista de tareas.png'
+import moviesImage from '../assets/APIRESTMOVIES.png'
 
 const Projects = () =>{
 
@@ -9,7 +12,7 @@ const Projects = () =>{
             techStack: ['React','Tailwind CSS', 'Javascript'],
             github: 'https://github.com/juanda404/ToDo-React',
             demo:'https://jdsantamaria.netlify.app/',
-            image:'/src/assets/portfolio.png'
+            image:portfolioImage
         },
                 {
             title: 'To-Do App',
@@ -17,7 +20,7 @@ const Projects = () =>{
             techStack: ['React','Tailwind CSS', 'Javascript'],
             github: 'https://github.com/juanda404/ToDo-React',
             demo:'',
-            image: '/src/assets/Lista de tareas.png'
+            image: todoImage
         },
         {
             title: 'API-REST-MOVIES',
@@ -25,7 +28,7 @@ const Projects = () =>{
             techStack: ['JavaScript','CSS', 'HTML'],
             github: 'https://github.com/juanda404/API-REST-MOVIES',
             demo:'https://moviesjds.netlify.app/',
-            image: '/src/assets/APIRESTMOVIES.png'
+            image: moviesImage
         }
     ]
 
