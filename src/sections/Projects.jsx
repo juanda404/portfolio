@@ -2,10 +2,20 @@ import { motion } from 'framer-motion'
 import portfolioImage from '../assets/portfolio.png'
 import todoImage from '../assets/Lista de tareas.png'
 import moviesImage from '../assets/APIRESTMOVIES.png'
+import dragonBallz from '../assets/APIDBZ.png'
 
 const Projects = () =>{
 
     const projects = [
+
+        {
+            title: 'Dragon Ball Z APP',
+            description: 'A simple and responsive React application that displays detailed information about Dragon Ball characters using data from the [Dragon Ball API](https://dragonball-api.com/)',
+            techStack: ['React','Tailwind CSS', 'Javascript'],
+            github: 'https://github.com/juanda404/dragonball-app',
+            demo:'https://dragonballzap.netlify.app/',
+            image:dragonBallz
+        },
         {
             title: 'Portfolio Website',
             description: 'A personal portfolio website built with React and Tailwind CSS to showcase my skills, experience and projects.',
